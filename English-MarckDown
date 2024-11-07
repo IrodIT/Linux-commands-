@@ -1,0 +1,63 @@
+| Command | Description | Usage Example |
+|---------|-------------|----------------|
+| `ls`    | Lists the contents of a directory. | `ls /home/user` |
+| `cp`    | Copies files or directories. | `cp file.txt /path/destination/` |
+| `mv`    | Moves or renames files or directories. | `mv file.txt new_name.txt` |
+| `rm`    | Removes files or directories. | `rm file.txt` |
+| `mkdir` | Creates a new directory. | `mkdir new_folder` |
+| `rmdir` | Removes an empty directory. | `rmdir empty_folder` |
+| `touch` | Creates an empty file or updates the timestamp of an existing file. | `touch new_file.txt` |
+| `cat`   | Displays the content of a file. | `cat file.txt` |
+| `nano`  | Command-line text editor. | `nano document.txt` |
+| `grep`  | Searches for patterns within files. | `grep 'text' file.txt` |
+| `find`  | Searches for files and directories in a hierarchy. | `find /path -name file.txt` |
+| `chmod` | Changes the permissions of a file or directory. | `chmod 755 script.sh` |
+| `chown` | Changes the owner of a file or directory. | `chown user:group file.txt` |
+| `ps`    | Displays information about running processes. | `ps aux` |
+| `kill`  | Sends a signal to a process, typically to terminate it. | `kill 1234` |
+| `df`    | Shows information about disk space usage. | `df -h` |
+| `du`    | Reports disk usage of files and directories. | `du -sh folder/` |
+| `tar`   | Archives multiple files into one and can compress them. | `tar -czvf archive.tar.gz folder/` |
+| `gzip`  | Compresses files. | `gzip file.txt` |
+| `gunzip`| Decompresses `.gz` files. | `gunzip file.txt.gz` |
+| `wget`  | Downloads files from the web. | `wget http://example.com/file.zip` |
+| `curl`  | Transfers data to or from a server. | `curl http://example.com` |
+| `ssh`   | Securely connects to remote servers. | `ssh user@server.com` |
+| `scp`   | Securely copies files between hosts. | `scp file.txt user@server.com:/path/destination/` |
+| `rsync` | Synchronizes files and directories between two locations. | `rsync -av folder/ user@server.com:/path/destination/` |
+| `ping`  | Checks network connectivity to another host. | `ping example.com` |
+| `top`   | Displays real-time information about system processes. | `top` |
+| `htop`  | Enhanced version of `top` with an interactive interface. | `htop` |
+| `uname` | Shows system information. | `uname -a` |
+| `man`   | Displays the user manual of a command. | `man ls` |
+| `echo`  | Outputs a message to the screen. | `echo "Hello, world"` |
+| `date`  | Displays or sets the system date and time. | `date` |
+| `who`   | Shows who is logged into the system. | `who` |
+| `uptime`| Displays how long the system has been running. | `uptime` |
+| `df`    | Shows disk space usage. | `df -h` |
+| `free`  | Displays the amount of free and used memory in the system. | `free -h` |
+| `history`| Shows the history of executed commands. | `history` |
+| `alias` | Creates an alias for a command. | `alias ll='ls -la'` |
+| `unalias`| Removes a created alias. | `unalias ll` |
+| `sudo`  | Executes a command with superuser privileges. | `sudo apt update` |
+| `apt`   | Package manager for Debian-based systems. | `apt install package` |
+| `dpkg`  | Debian package management system. | `dpkg -i package.deb` |
+| `service`| Manages system services. | `service apache2 restart` |
+| `systemctl`| Controls the system and services. | `systemctl status nginx` |
+| `journalctl`| Views system logs. | `journalctl -xe` |
+| `passwd`| Changes a user's password. | `passwd user` |
+| `useradd`| Creates a new user. | `useradd new_user` |
+| `usermod`| Modifies a user account. | `usermod -aG group user` |
+| `userdel`| Deletes a user account. | `userdel user` |
+| `groupadd`| Creates a new group. | `groupadd new_group` |
+| `groupdel`| Deletes a group. | `groupdel group` |
+| `crontab`| Edits the user's scheduled tasks. | `crontab -e` |
+| `at`    | Schedules a one-time task. | `at 14:00` |
+| `jobs`  | Displays background jobs. | `jobs` |
+| `bg`    | Sends a job to the background. | `bg %1` |
+| `fg`    | Brings a job to the foreground. | `fg %1` |
+| `nohup` | Runs a command that continues after logging out. | `nohup script.sh &` |
+| `screen`| Terminal multiplexer allowing multiple sessions. | `screen` |
+| `tmux`  | Alternative to `screen` for managing multiple sessions. | `tmux` |
+| `chmod` | Changes the permissions of a file or directory. | `chmod 755 file.sh` |
+| `chown` | Changes the owner of a file or directory. | `chown user:group file.txt` |
